@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="admin-dashboard.css">
+</head>
+<body>
+    <div class="dashboard">
+        <header class="header">
+            <h1>Admin Dashboard</h1>
+            <button class="theme-toggle" id="themeToggle">
+                <span class="toggle-icon">🌙</span>
+                <span class="toggle-text">Dark Mode</span>
+            </button>
+        </header>
+
+        <div class="container">
+            <aside class="sidebar">
+                <ul class="nav-menu">
+                    <li><a href="#" class="nav-link active">Dashboard</a></li>
+                    <li><a href="#" class="nav-link">Users</a></li>
+                    <li><a href="#" class="nav-link">Orders</a></li>
+                    <li><a href="#" class="nav-link">Settings</a></li>
+                </ul>
+            </aside>
+
+            <main class="main-content">
+                <h2>Welcome to Admin Panel</h2>
+                
+                <div class="stats">
+                    <div class="card">
+                        <h3>Total Users</h3>
+                        <p class="big-number">1,234</p>
+                    </div>
+                    <div class="card">
+                        <h3>Total Orders</h3>
+                        <p class="big-number">856</p>
+                    </div>
+                    <div class="card">
+                        <h3>Revenue</h3>
+                        <p class="big-number">$42,500</p>
+                    </div>
+                    <div class="card">
+                        <h3>Active Users</h3>
+                        <p class="big-number">347</p>
+                    </div>
+                </div>
+
+                <div class="info-section">
+                    <h3>Recent Activity</h3>
+                    <div class="activity-list">
+                        <div class="activity-item">
+                            <strong>New user registered</strong> - 2 hours ago
+                        </div>
+                        <div class="activity-item">
+                            <strong>Order completed</strong> - 5 hours ago
+                        </div>
+                        <div class="activity-item">
+                            <strong>Payment received</strong> - 1 day ago
+                        </div>
+                        <div class="activity-item">
+                            <strong>System backup done</strong> - 2 days ago
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <footer class="footer">
+            <p>Admin Dashboard 2026</p>
+        </footer>
+    </div>
+
+    <script src="admin-dashboard.js"></script>
+</body>
+</html>
